@@ -1,4 +1,7 @@
 package com.example.transformerexample.logic
 
-class TextTransformDecorator {
+abstract class TextTransformDecorator(private val transform: TextTransform) : TextTransform {
+    override fun transform(): String {
+        return transform.transform()
+    }
 }

@@ -1,4 +1,5 @@
 package com.example.transformerexample.logic
 
-class LetterCaseDecorator {
+class LetterCaseDecorator(transform: TextTransform) : TextTransformDecorator(transform) {
+
 }
