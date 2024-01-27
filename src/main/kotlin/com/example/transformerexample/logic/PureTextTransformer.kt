@@ -1,6 +1,6 @@
 package com.example.transformerexample.logic
 
-class PureTextTransform(private val str: String) : TextTransform {
+class PureTextTransformer(private val str: String) : TextTransformer {
 
     override fun transform(): String {
         return str

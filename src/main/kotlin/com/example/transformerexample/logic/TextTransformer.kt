@@ -1,5 +1,5 @@
 package com.example.transformerexample.logic
 
-interface TextTransform {
+interface TextTransformer {
     fun transform(): String
 }
